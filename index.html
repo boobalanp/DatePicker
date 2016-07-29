@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
-<link rel="stylesheet" href="datepicker.css">
+<link rel="stylesheet" href="css/datepicker.css">
 </head>
 
 <body>
     <input type="text" placeholder="Select Date" id="start_date" />
 	<input type="text" placeholder="end Date" id="end_date" style="display:block"/>
 </body>
-<script type="text/javascript" src="datepicker.js"></script>
+<script type="text/javascript" src="js/datepicker.min.js"></script>
 <script>
 var myDatePicker = new DatePicker({"target":document.getElementById("start_date"),callback:function(selectedDate) {
     console.log("picker1")
