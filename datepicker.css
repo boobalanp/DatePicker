@@ -1,0 +1,107 @@
+.datepicker_parent_container {
+	background: #000;
+	color:#fff;
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+	min-width: 300px;
+	opacity: 0.7;
+	position: absolute;
+}
+.datepicker_parent_container table {
+	width:100%;
+}
+.datepicker_parent_container thead td{
+	padding: 10px 0px;
+	cursor: default;
+	text-align: center;
+}
+.dtp_datepicker_headerleft {
+	display: inline-block;
+	float: left;
+}
+.dtp_datepicker_headerright {
+	display: inline-block;
+	float: right;
+}
+.dtp_datepicker_header_class{
+	height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.dtp_header_rightarrow,.dtp_header_leftarrow{
+	font-size: 30px;
+    display: inline-block;
+    padding: 3px 10px;
+	cursor: default;
+}
+.dtp_datepicker_headercenter{
+	text-align: center;
+    display: inline-block;
+	max-width:100%;
+    width: 225px;
+    font-size: 24px;
+    padding: 7px 0px;
+}
+.dtp_datepicker_headercenter span {
+	cursor: default;
+}
+.not-current-month {
+	color: rgba(232, 227, 227, 0.41);
+}
+.dtp-current-day{
+	background: #1D7099;
+}
+.dtp-current-day:hover {
+	background: #52B9F2;
+}
+.dtp-current-month,.not-current-month,.dtp-current-day {
+	cursor: default;
+	text-align: center;
+	padding:8px 7px;
+	width: 26px;
+}
+.dtp-current-month:hover{
+	background: #52B9F2;
+}
+.dtp-disable-arrow {
+	color: rgba(232, 227, 227, 0.41);
+}
+.bb-dtp-month {
+	padding: 20px;
+    text-align: center;
+    font-size: 20px;
+	cursor: default;
+}
+.bb-dtp-month-disable {
+	padding: 20px;
+    text-align: center;
+    font-size: 20px;
+	color: rgba(232, 227, 227, 0.41);
+	cursor: default;
+}
+.bb-dtp-month:hover {
+	background: #52B9F2;
+}
+.bb-current-month-selected {
+	background: #1D7099;
+}
+
+.bb-dtp-year {
+	padding: 20px 16px;
+    text-align: center;
+    font-size: 20px;
+	cursor: default;
+}
+.bb-dtp-year-disable {
+	padding: 20px 16px;
+    text-align: center;
+    font-size: 20px;
+	color: rgba(232, 227, 227, 0.41);
+	cursor: default;
+}
+.bb-dtp-year:hover {
+	background: #52B9F2;
+}
+.bb-current-year-selected {
+	background: #1D7099;
+}

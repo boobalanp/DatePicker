@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="datepicker.css">
+</head>
+
+<body>
+    <input type="text" placeholder="Select Date" id="start_date" />
+	<input type="text" placeholder="end Date" id="end_date" style="display:block"/>
+</body>
+<script type="text/javascript" src="datepicker.js"></script>
+<script>
+var myDatePicker = new DatePicker({"target":document.getElementById("start_date"),callback:function(selectedDate) {
+    console.log("picker1")
+}});
+var myDatePicker1 = new DatePicker({"target":document.getElementById("end_date"),callback:function() {
+console.log("picker2")
+}});
+
+</script>
+
+</html>
